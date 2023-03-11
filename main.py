@@ -12,9 +12,7 @@ from googleapiclient.errors import HttpError
 # If modifying these scopes, delete the file token.json.
 SCOPES = ['https://www.googleapis.com/auth/drive']
 file_metadata = {
-            'name': 'date_today.bak'
-            
-        }
+            'name': 'date_today.bak'}
 path = sys.argv[1]
 
 def make_backup():
